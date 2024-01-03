@@ -29,6 +29,7 @@ app.use("/students", studentRoutes);
 app.use("/attendance", attendanceRoutes);
 app.use("/classes", classRoutes);
 app.use("/instructors", require("./routes/instructorRoutes"));
+app.use("/admins", require("./routes/adminRoutes"));
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
