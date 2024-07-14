@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const app = express();
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 mongoose.connect(
   "mongodb+srv://cberen15:717235Cb.@wuubimedia.qfs2zro.mongodb.net/",
